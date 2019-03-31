@@ -8,3 +8,4 @@ path = os.path.dirname(__file__)
 path_files = path + r'\files'
 path_audios = path_files + r'\audios'
 path_dataframes = path_files + r'\dataframes'
+

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "minhacuca",
+  "private_key_id": "ffb88384a8bda90d64d636c92fbeabd17e2b3eb4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQC8dMxX+2RhiMn2\nLp8ihF3iGOOXGsbh51GVlwUtXQf/wUlnAN1M6MpTUL/ocbhI/a2wBLiAi+VmlMp4\nrWwgs/+JXMHhb2NcNYHqwDynURy/wh4NvJgzHgJDCQy/msRTAvF93NDrYcXIrhdt\n72YTpGz9sR5O5Ndu2853XjMR0euQTVl/3SrhF1DMVaqKbtiItLmnDauoDvIv6TjW\nkHeN32XCr/To+5Ytot54LuWnFlOfqqw5A5mh507Mw3+b9gN7DpXYL4ai+ODabDl5\nRM5SHqdJb+SKZr12Lov401YyYqur8owezDkN0QvrAT2QtkzIlyoM1ahJnroQPtTH\nLkOyP83ZAgMBAAECgf9xRkMNHy3W8kFyl9NPDADiRdOGn7GrVz7Si1OxUJneQG++\nWeaqs8HpEkBHlxMNzGz5v9ymZ3AbmJOataKohYizJ+3hcvJmGkNctu++IiMFn8gw\nuYtCLmdto6LmCEC5JKvC21c4JCyd0waCLcNNSye31R5CjYpwN+6CETzhGSxeLxfo\nskA/sp7R5FYfHjAz8vKAgx+lQzzg/hLBRUZWfazZjmSGyTCjOcYuy8IuN8HDEG7B\nCj+OvTNc0wv9dzuV0H+FgENEd9yMRiae9+4sP2Js1TOUr2ndcZ5vQsmhIVj4hmgw\npr/9AZ6ArhkeirY6DLg1SLG3kkJQLKQTn5IN4+ECgYEA3vYbkCrmFW5Y9zJfbjo8\njo0dc74gaH976XtIminno25ytOYp2xkYAugphMhLEd+5y1zBkPb2P4qix6FV54Rb\nNa+I7SexTUkUhO3uWK52c+YZxnJpVPz3v15pn2QhFtzT9KHGn3H/jok9XhaMnHrK\niR9eZpyT/awAFeGlnflt7eECgYEA2GHDAH71w8Kepm2OYT8PUGhoNfzWZoQqAp+L\nMdmlzP33YzoMOTtdC4u+xPBNVinh/1EtcRwX70Vp3RjCQo9D+lKpCb/wOejga7mD\ntaoEBi5cWovOAJ4NcRg4rnY3ozK8ozE6GyTaq1OKuVaTnSP64qFYpAouwL4x7a+l\n7tY1LvkCgYEAz87807tYJeNqokPd9GPtK0RVjhpIJH2l5XEVszKZhpcb7IWVv3M9\nEQCIKg1xAqDOj7/NXisASysRGxXBdn7DcF9CNSBIver+aANHonpBRzbREUhz6lW5\nKDF8KqZtvNxn5VufP99FvPknLHnB5tr/yRxmpScNPGNC1SIydfIURqECgYBQjeSY\ntKst27BQaQzOazl6R8Q0BRKUS7OQEnExd8Nf01Rb3mpajB0RhU7Z5lQENcdq03/F\nUh4e94p3wxXezZMTB97iQFBgXq/dqsy7vrWMz4mWM+HXHQAIEGpZmK0R1nufjV4C\naO/3RDyqzu5ZW+G0qThkqV3KZ4QS5ocxqRFXkQKBgAZiR0/QX7LRUyq/luIR2z1T\n+utG45SlJti5IgUc7mSsV+0suMhoCIc8aiu6TDU6WB+UhOzm2MQFiIVaURT0IFFw\n/vooxEPWEnB4DIHQbukz1sNjr4msfZUy5PRUUo8PgLRiZFpm770AVR8hrxYejsoG\ntAy3TN4CkMXrdrUDGoas\n-----END PRIVATE KEY-----\n",
+  "client_email": "contaservico@minhacuca.iam.gserviceaccount.com",
+  "client_id": "104927166355465305347",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/contaservico%40minhacuca.iam.gserviceaccount.com"
+}

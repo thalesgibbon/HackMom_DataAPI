@@ -37,7 +37,7 @@ class TextToDfs(object):
                 full_df.to_pickle(path_full_df)
             else:
                 df.to_pickle(path_full_df)
-        concat_df(df_audio, 'path_do_audio')
+        concat_df(df_audio, 'url_do_audio')
         concat_df(df_sintomas, 'sintomas')
         concat_df(df_suspeita, 'suspeita')
         concat_df(df_conduta, 'conduta')

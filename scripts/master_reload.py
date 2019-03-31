@@ -10,12 +10,13 @@ class MasterReload(object):
     def __init__(self, k, c, a):
         self.key = k
         self.customer = c
-        self.path_do_audio = a
+        self.url_do_audio = a
+        self.path_do_audio = path_join(path_audios, f'{self.key}.oga')
         self.insert_return = False
         self.reload()
 
     def reload(self):
-        urllib.request.urlretrieve(self.path_do_audio, path_join(path_audios, f'{self.key}.oga'))
+        urllib.request.urlretrieve(self.url_do_audio, self.path_do_audio)
 
         text = AudioToText(a=self.path_do_audio).texto
 
