@@ -2,27 +2,23 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-import json
-from funcao import funcao
+from datetime import datetime
+from scripts.master_reload import MasterReload
 
 
 class InsertAudio(APIView):
     def post(self, request):
-        dicio = {}
+        url_audio = request.GET['url_audio']
+        id_custumer = request.GET['id_custumer']
+        key = f"{id_custumer}_{datetime.now().strftime('%Y%m%d_%H%M%S%f')}"
 
         try:
-            ''' salvar json '''
-            body_dict = json.loads(str(request.body, encoding='utf-8'))
+            retorno = MasterReload(k=key, c=id_custumer, a=url_audio).insert_return
 
-            audio = body_dict['audio']
-
-            resultado = funcao(audio)
-
-            if resultado:
-                dicio = {'status': 'limit exceeded'}
-            else:
+            if retorno:
                 dicio = {'status': 'ok'}
-
+            else:
+                dicio = {'status': 'falha'}
         except:
             dicio = {'status': 'empty'}
 

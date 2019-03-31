@@ -9,7 +9,7 @@ class DatabaseRouter(object):
     def allow_relation(self, obj1, obj2, **hints):
         """
         Relations between objects are allowed if both objects are
-        in the master/slave pool.
+        in the MasterReload/slave pool.
         """
         db_list = ('default')
         return obj1._state.db in db_list and obj2._state.db in db_list
