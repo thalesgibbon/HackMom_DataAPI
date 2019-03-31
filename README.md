@@ -12,6 +12,7 @@ Além disso, permitiria aos médicos ganho de agilidade no preenchimento da evol
 
 Para esse hackathon e MVP, a Hackmon entregou a plataforma pensando nas consultas eletivas e comando de voz através do whatsapp. 
 
+Este repositorio contem informacoes do servico de API com front, armazenamento de arquivos em formato pickle para analise de dados, integracao com a api de IA da google speech-to-text e ferramenta de data mining para estruturacao em dataframes. 
 
 ## Estrutura 
 
