@@ -2,3 +2,4 @@
 venv
 files/*
 !files/README.md
+__pycache__
